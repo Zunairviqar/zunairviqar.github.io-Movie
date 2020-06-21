@@ -43,6 +43,7 @@ div.pic {
   display: flex;
   justify-content: center;
   align content: center;
+  cursor: pointer;
 }
 
 /* .play-video{
