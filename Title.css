@@ -32,3 +32,27 @@ div.pic {
   margin: auto;
   text-align: center;
 }
+
+#map{
+  width: 88%;
+  position: relative;
+  z-index: 1;
+  margin: auto;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align content: center;
+}
+
+/* .play-video{
+  position: absolute;
+  z-index: 1;
+  top:55vh;
+  left:34vw;
+  margin: auto;
+  justify-content: center;
+  align content: center;
+  background-color: white;
+  opacity: 0.5;
+  width:28%;
+} */
