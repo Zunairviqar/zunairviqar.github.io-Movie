@@ -46,6 +46,36 @@ div.pic {
   cursor: pointer;
 }
 
+#map2{
+  height: 100vw;
+  position: relative;
+  z-index: 1;
+  margin: auto;
+  /* text-align: center; */
+  display: flex;
+  justify-content: center;
+  align content: center;
+  cursor: pointer;
+  display: none;
+}
+
+@media (max-width:952px){
+  label.logo{
+    font-size:30px;
+    padding-left: 50px;
+  }
+  nav ul li a{
+    font-size: 16px;
+  }
+  #map{
+    display: none;
+  }
+  #map2{
+    display: flex;
+  }
+
+}
+
 /* .play-video{
   position: absolute;
   z-index: 1;
