@@ -1,7 +1,7 @@
 $(document).ready(function(){
   $("#check").click(function(){
     setTimeout(function () {
-      $("#Movie").toggle();
+      $("#Content").toggle();
       $("#footer").toggle();
 
     }, 100);
