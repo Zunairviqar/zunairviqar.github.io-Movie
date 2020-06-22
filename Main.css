@@ -97,6 +97,14 @@ div.Movie video{
   position: relative;
   height:100vh;
 }
+.Cast{
+  position: relative;
+  height:100vh;
+}
+.Bloopers{
+  position: relative;
+  height:100vh;
+}
 .Section-Title{
   margin-top: 3vh;
   color: white;
