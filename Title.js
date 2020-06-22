@@ -15,9 +15,9 @@ window.addEventListener("load", function() {
 
 	let map2 = document.getElementById("map2").contentDocument;
 
-	let loc2 = map.getElementById("button");
+	let loc2 = map2.getElementById("button");
 	loc2.addEventListener('click', () => {
-    console.log("Play-Video is clicked");
+    console.log("Play-Video on Phone is clicked");
     window.open("Main.html");
 	})
 
