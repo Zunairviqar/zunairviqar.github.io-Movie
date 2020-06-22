@@ -5,6 +5,7 @@
 }
 body {
   font-family: myFirstFont;
+  position: absolute;
 }
 
 @font-face {
