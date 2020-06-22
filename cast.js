@@ -1,11 +1,30 @@
-// let hackBg = document.getElementById("hacker").contentDocument;
+$(document).ready(function(){
+  $("#check").click(function(){
+    setTimeout(function () {
+      // $("#Movie").toggle();
+      $("#footer").toggle();
 
-window.addEventListener("DOMContentLoaded", function() {
-	console.log("heloooo");
-// let hackBg = document.getElementById("hacker").contentDocument;
-let popCast = document.getElementById("confidential");
-popCast.addEventListener('click', () => {
-    console.log("button is clicked");
-    // window.open("Main.html");
-	});
+    }, 100);
+  });
 });
+
+
+
+
+
+
+
+
+
+
+
+
+// window.addEventListener("DOMContentLoaded", function() {
+// 	console.log("heloooo");
+
+// let popCast = document.getElementById("confidential");
+// popCast.addEventListener('click', () => {
+//     console.log("button is clicked");
+
+// 	});
+// });
