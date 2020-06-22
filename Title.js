@@ -9,17 +9,17 @@ window.addEventListener("load", function() {
 	loc1.addEventListener('click', () => {
     console.log("Play-Video is clicked");
     window.open("Main.html");
-	})
+	});
 
   let bg2 = document.getElementById("map2");
 
 	let map2 = document.getElementById("map2").contentDocument;
 
-	let loc2 = map2.getElementById("button");
+	let loc2 = map2.getElementById("button2");
 	loc2.addEventListener('click', () => {
     console.log("Play-Video on Phone is clicked");
     window.open("Main.html");
-	})
+	});
 
 
-})
+});
