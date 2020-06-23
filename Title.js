@@ -11,15 +11,23 @@ window.addEventListener("load", function() {
     console.log("Play-Video is clicked");
     window.open("Movie.html");
 	});
-  setTimeout(function () {
-  	let map2 = document.getElementById("map2").contentDocument;
 
-  	let loc2 = map2.getElementById("button2");
-  	loc2.addEventListener('click', () => {
-      console.log("Play-Video on Phone is clicked");
-      window.open("Movie.html");
-  	});
-  }, 100);
+  function checkReady() {
+    var svg = document.getElementById("map2").getSVGDocument();
+    if (svg == null) {
+        setTimeout("checkReady()", 300);
+    }
+    else {
+      let map2 = document.getElementById("map2").contentDocument;
+
+      let loc2 = map2.getElementById("button2");
+      loc2.addEventListener('click', () => {
+        console.log("Play-Video on Phone is clicked");
+        window.open("Movie.html");
+      });
+    }
+}
+
 
 
 
