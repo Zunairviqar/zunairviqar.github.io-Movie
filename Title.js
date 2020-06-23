@@ -1,4 +1,4 @@
-window.addEventListener("DOMContentLoaded ", function() {
+window.addEventListener("load", function() {
 
   alert ("An Audio will be played in the background. Get your headphones!");
 	let bg = document.getElementById("map");

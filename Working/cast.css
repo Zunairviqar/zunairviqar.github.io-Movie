@@ -61,14 +61,7 @@ a.active, a:hover{
   color:red;
   transition: .5s;
 }
-
-.Movie{
-  cursor: pointer;
-  /* margin-left: 20%; */
-  position: relative;
-}
-
-div.Movie video{
+/*div.video{
   height: 25%;
   width: 60%;
   margin-left: 20%;
@@ -77,42 +70,8 @@ div.Movie video{
   align content: center;
   border: 2px solid white;
   border-radius: 4px;
-}
-.Content{
-  position: relative;
-  width: 100%;
-  background-color: yellow;
-}
-.Section-Title{
-  margin-top: 3vh;
-  color: white;
-  text-align: center;
-  font-size: 6vh;
-}
-.Sub-Title{
-  margin-top: 3vh;
-  color: white;
-  text-align: center;
-  font-size: 5vh;
-}
-.Section-Content{
-  /* margin-top: 3vh; */
-  color: white;
-  text-align: center;
-  font-size: 3vh;
-  padding: 30px 200px;
-}
+}*/
 
-.footer{
-  width: 100%;
-  position: absolute;
-  background-color: rgba(0,0,0,0.8);
-  text-align: center;
-  display: block;
-  color:white;
-  font-size: 3vh;
-  bottom:0;
-}
 .video{
   height:100vh;
   /* width: 100%; */
@@ -125,6 +84,22 @@ div.Movie video{
   min-width: 100%;
   min-height: 100%;
 }
+/*.card{
+  position: absolute;
+  
+}
+*/
+.footer{
+  width: 100%;
+  position: absolute;
+  background-color: rgba(0,0,0,0.8);
+  text-align: center;
+  /*display: block;*/
+  color:white;
+  font-size: 3vh;
+  bottom:0;
+}
+
 .checkbtn{
   font-size: 30px;
   color: white;
@@ -146,17 +121,13 @@ div.Movie video{
   nav ul li a{
     font-size: 16px;
   }
-  .Movie{
-    cursor: pointer;
-    /* margin-left: 10vw; */
-    /* padding: 40px; */
-  }
-  div.Movie video{
+
+ /* div.Movie video{
     height: 65%;
     width: 70%;
     margin-left: 15%;
     margin-top: 10px;
-  }
+  }*/
   .footer{
     font-size: 2vh;
   }
@@ -171,17 +142,13 @@ div.Movie video{
   label.logo2{
     display: block;
   }
-  .Movie{
-    cursor: pointer;
-    /* margin-left: 0vw; */
-    padding: 40px;
-  }
-  div.Movie video{
+
+/*  div.Movie video{
     height: 100%;
     width: 95%;
     margin-left: 2.5%;
     margin-top: 10px;
-  }
+  }*/
   ul {
     position: fixed;
     width: 100%;
@@ -212,8 +179,3 @@ div.Movie video{
     display: none;
   }
 }
-/* section{
-  background: url() no-repeat;
-  background-size: cover;
-  height: calc(100vh - 80px);
-} */

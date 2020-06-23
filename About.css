@@ -25,6 +25,7 @@ label.logo{
   padding: 0 40px;
   position: relative;
   top:15px;
+  left: 25px;
 }
 
 label.logo2{
@@ -81,37 +82,39 @@ div.Movie video{
 .Content{
   position: relative;
   width: 100%;
-  background-color: yellow;
+  text-align: center;
+  /* background-color: yellow; */
 }
 .Section-Title{
   margin-top: 3vh;
   color: white;
-  text-align: center;
-  font-size: 6vh;
+  /* text-align: center; */
+  font-size: 5vh;
 }
 .Sub-Title{
   margin-top: 3vh;
   color: white;
-  text-align: center;
-  font-size: 5vh;
+  /* text-align: center; */
+  font-size: 4vh;
 }
 .Section-Content{
   /* margin-top: 3vh; */
   color: white;
-  text-align: center;
-  font-size: 3vh;
+  text-align: justify;
+  font-size: 2.5vh;
   padding: 30px 200px;
 }
 
 .footer{
   width: 100%;
-  position: absolute;
+  position: relative;
   background-color: rgba(0,0,0,0.8);
   text-align: center;
   display: block;
   color:white;
   font-size: 3vh;
-  bottom:0;
+
+  bottom:0px;
 }
 .video{
   height:100vh;
@@ -146,20 +149,29 @@ div.Movie video{
   nav ul li a{
     font-size: 16px;
   }
-  .Movie{
-    cursor: pointer;
-    /* margin-left: 10vw; */
-    /* padding: 40px; */
+  .Section-Title{
+    margin-top: 3vh;
+    color: white;
+    /* text-align: center; */
+    font-size: 3.5vh;
   }
-  div.Movie video{
-    height: 65%;
-    width: 70%;
-    margin-left: 15%;
-    margin-top: 10px;
+  .Sub-Title{
+    margin-top: 3vh;
+    color: white;
+    /* text-align: center; */
+    font-size: 3vh;
+  }
+  .Section-Content{
+    /* margin-top: 3vh; */
+    color: white;
+    text-align: justify;
+    font-size: 2.2vh;
+    padding: 30px 50px;
   }
   .footer{
     font-size: 2vh;
   }
+
 }
 @media (max-width:858px){
   .checkbtn{
@@ -171,16 +183,24 @@ div.Movie video{
   label.logo2{
     display: block;
   }
-  .Movie{
-    cursor: pointer;
-    /* margin-left: 0vw; */
-    padding: 40px;
+  .Section-Title{
+    margin-top: 3vh;
+    color: white;
+    /* text-align: center; */
+    font-size: 3vh;
   }
-  div.Movie video{
-    height: 100%;
-    width: 95%;
-    margin-left: 2.5%;
-    margin-top: 10px;
+  .Sub-Title{
+    margin-top: 3vh;
+    color: white;
+    /* text-align: center; */
+    font-size: 2.7vh;
+  }
+  .Section-Content{
+    /* margin-top: 3vh; */
+    color: white;
+    text-align: justify;
+    font-size: 2vh;
+    padding: 30px 20px;
   }
   ul {
     position: fixed;
