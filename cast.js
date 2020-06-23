@@ -3,11 +3,22 @@ $(document).ready(function(){
     setTimeout(function () {
       // $("#Movie").toggle();
       $("#footer").toggle();
+      $("#cast-content2").toggle();
 
     }, 100);
   });
-});
 
+  $("#ToggleBox").click(function(){
+    setTimeout(function () {
+      // $("#Movie").toggle();
+      $("#card-container").toggle();
+
+    }, 100);
+  });
+
+
+
+});
 
 
 
