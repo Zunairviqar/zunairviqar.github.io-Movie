@@ -75,7 +75,7 @@ div.hacker-confidential {
   /*width: 100%;*/
   /*height: 100vh;*/
   /*overflow: hidden;*/
-  
+
   display: flex;
   justify-content: center;
   align content: center;
@@ -91,6 +91,10 @@ div.hacker-confidential {
   justify-content: center;
   align content: center;
   /*cursor: pointer;*/
+  /* display: none; */
+}
+#card-container{
+  display:none;
 }
 .card-deck{
   margin: auto;
@@ -183,12 +187,12 @@ input:checked + .slider:before {
 }
 
 .card-container{
-  display: none;
+  /* display: none; */
   position: relative;
   width:25rem;
   /*height: 30rem;*/
   perspective: 250rem;
-  /*display: none;*/
+  /* display: none; */
   /*position: absolute;*/
 
 }
@@ -265,6 +269,9 @@ input:checked + .slider:before {
     display:inline;
   }
   .Toggler{
+    display: none;
+  }
+  #hacker{
     display: none;
   }
 }

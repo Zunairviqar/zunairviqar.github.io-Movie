@@ -254,8 +254,16 @@ div.grid2-item video{
   .grid-container1{
     display: inline-block;
   }
+  .grid1-item{
+    margin-right:15%;
+    margin-left:15%;
+  }
   .grid-container2{
     display: inline-block;
+  }
+  .grid2-item{
+    margin-right:15%;
+    margin-left:15%;
   }
   .footer{
     position: relative;

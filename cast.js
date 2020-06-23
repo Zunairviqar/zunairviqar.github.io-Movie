@@ -11,9 +11,12 @@ $(document).ready(function(){
   $("#ToggleBox").click(function(){
     setTimeout(function () {
       // $("#Movie").toggle();
-      $("hacker-confidential").css("display", "none");
+      // $("hacker-confidential").css("display", "none");
+      $("#card-container").toggle();
       // $("hacker-confidential").toggle();
-      // $("#card-container").toggle();
+      $("#hacker").toggle();
+
+
       // $('#card-container').css("display", "block");
 
     }, 100);
