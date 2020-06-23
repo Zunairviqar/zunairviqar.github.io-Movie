@@ -15,9 +15,11 @@ window.addEventListener("load", function() {
   function checkReady() {
     var svg = document.getElementById("map2").getSVGDocument();
     if (svg == null) {
+        console.log("Im in for")
         setTimeout("checkReady()", 300);
     }
     else {
+      console.log("Im in else")
       let map2 = document.getElementById("map2").contentDocument;
 
       let loc2 = map2.getElementById("button2");
