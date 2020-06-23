@@ -101,8 +101,9 @@ div.Movie video{
   /* margin-top: 3vh; */
   color: white;
   text-align: justify;
-  font-size: 2.5vh;
+  font-size: 3vh;
   padding: 30px 200px;
+  font-family: 'Lato', sans-serif;
 }
 
 .footer{

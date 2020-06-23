@@ -215,16 +215,7 @@ input:checked + .slider:before {
 #check{
   display: none;
 }
-@media(max-width: 1200px){
-  .card-flip{
-    /*position: flex;*/
 
-  }
-  /*.card-flip{
-    position: flex;
-
-  }*/
-}
 
 @media (max-width:1050px){
   label.logo{
