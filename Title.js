@@ -1,3 +1,4 @@
+let bg2 = document.getElementById("map2").style.display = "none";
 window.addEventListener("load", function() {
 
   alert ("An Audio will be played in the background. Get your headphones!");
@@ -8,18 +9,18 @@ window.addEventListener("load", function() {
 	let loc1 = map.getElementById("button");
 	loc1.addEventListener('click', () => {
     console.log("Play-Video is clicked");
-    window.open("Main.html");
+    window.open("Movie.html");
 	});
+  setTimeout(function () {
+  	let map2 = document.getElementById("map2").contentDocument;
 
-  let bg2 = document.getElementById("map2");
+  	let loc2 = map2.getElementById("button2");
+  	loc2.addEventListener('click', () => {
+      console.log("Play-Video on Phone is clicked");
+      window.open("Movie.html");
+  	});
+  }, 100);
 
-	let map2 = document.getElementById("map2").contentDocument;
-
-	let loc2 = map2.getElementById("button2");
-	loc2.addEventListener('click', () => {
-    console.log("Play-Video on Phone is clicked");
-    window.open("Main.html");
-	});
 
 
 });

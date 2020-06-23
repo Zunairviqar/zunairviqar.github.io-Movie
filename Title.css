@@ -56,7 +56,6 @@ div.pic {
   justify-content: center;
   align content: center;
   cursor: pointer;
-  display: none;
 }
 
 @media (max-width:952px){
