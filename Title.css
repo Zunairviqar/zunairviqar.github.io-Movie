@@ -56,6 +56,7 @@ div.pic {
   justify-content: center;
   align content: center;
   cursor: pointer;
+  display: none;
 }
 
 @media (max-width:952px){
@@ -70,9 +71,8 @@ div.pic {
     display: none;
   }
   #map2{
-    display: flex;
+    display: block;
   }
-
 }
 
 /* .play-video{

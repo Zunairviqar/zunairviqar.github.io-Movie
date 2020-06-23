@@ -1,4 +1,4 @@
-let bg2 = document.getElementById("map2").style.display = "none";
+// let bg2 = document.getElementById("map2").style.display = "none";
 window.addEventListener("load", function() {
 
   alert ("An Audio will be played in the background. Get your headphones!");
