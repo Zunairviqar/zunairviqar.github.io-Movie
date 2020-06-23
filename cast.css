@@ -71,7 +71,9 @@ a.active, a:hover{
   border: 2px solid white;
   border-radius: 4px;
 }*/
-
+.card-deck{
+  margin: auto;
+}
 .video{
   height:100vh;
   /* width: 100%; */
@@ -84,11 +86,33 @@ a.active, a:hover{
   min-width: 100%;
   min-height: 100%;
 }
-/*.card{
-  position: absolute;
+.card-container{
+  position: relative;
+  width:25rem;
+  /*height: 30rem;*/  
+  perspective: 250rem;
+  /*position: absolute;*/
   
 }
-*/
+
+.card-container:hover .card-front{
+  transform: rotateY(180deg);
+}
+.card-container:hover .card-back{
+  transform: rotateY(0deg);
+}
+.card-back{
+  transform: rotateY(180deg);
+}
+.card-flip{
+  transition: all 0.9s ;
+  position: absolute;
+  width: 100%;
+  /*height:100%;*/
+  border:2px solid white;
+  backface-visibility: hidden;
+  /*margin-right: 10rem;*/
+}
 .footer{
   width: 100%;
   position: absolute;
@@ -111,6 +135,16 @@ a.active, a:hover{
 }
 #check{
   display: none;
+}
+@media(max-width: 1200px){
+  .card-flip{
+    /*position: flex;*/
+
+  }
+  /*.card-flip{
+    position: flex;
+
+  }*/
 }
 
 @media (max-width:1050px){
