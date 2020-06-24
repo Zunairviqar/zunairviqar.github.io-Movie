@@ -12,7 +12,7 @@ window.addEventListener("load", function() {
         let loc2 = map2.getElementById("button2");
         loc2.addEventListener('click', () => {
           console.log("Play-Video on Phone is clicked");
-          window.open("Movie.html");
+          location.replace("Movie.html");
         });
       }, 100);
     } else {
@@ -24,7 +24,7 @@ window.addEventListener("load", function() {
       let loc1 = map.getElementById("button");
       loc1.addEventListener('click', () => {
         console.log("Play-Video is clicked");
-        window.open("Movie.html");
+        location.replace("Movie.html");
       });
     }
   }
