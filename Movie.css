@@ -73,9 +73,11 @@ a.active, a:hover{
   cursor: pointer;
   /* margin-left: 20%; */
   position: relative;
+  width: 100%; 
+  height: 0;
 }
 
-div.Movie video{
+div.Movie iframe{
   height: 25%;
   width: 60%;
   margin-left: 20%;
