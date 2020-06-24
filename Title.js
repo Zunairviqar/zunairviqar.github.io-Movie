@@ -1,4 +1,3 @@
-// let bg2 = document.getElementById("map2").style.display = "none";
 window.addEventListener("load", function() {
 
   alert ("An Audio will be played in the background. Get your headphones!");
@@ -11,27 +10,18 @@ window.addEventListener("load", function() {
     console.log("Play-Video is clicked");
     window.open("Movie.html");
 	});
+  var i;
+  for (i = 0; i < 0; i++) {
+    if(document.getElementById("map2").style.display == "block"){
+      setTimeout(function () {
+        let map2 = document.getElementById("map2").contentDocument;
 
-  function checkReady() {
-    var svg = document.getElementById("map2");
-    if (svg == null) {
-        console.log("Im in for")
-        setTimeout("checkReady()", 300);
+        let loc2 = map2.getElementById("button2");
+        loc2.addEventListener('click', () => {
+          console.log("Play-Video on Phone is clicked");
+          window.open("Movie.html");
+        });
+      }, 100);
     }
-    else {
-      console.log("Im in else")
-      let map2 = document.getElementById("map2").contentDocument;
-
-      let loc2 = map2.getElementById("button2");
-      loc2.addEventListener('click', () => {
-        console.log("Play-Video on Phone is clicked");
-        window.open("Movie.html");
-      });
-    }
-}
-setTimeout(checkReady(), 100);
-
-
-
-
+  }
 });
