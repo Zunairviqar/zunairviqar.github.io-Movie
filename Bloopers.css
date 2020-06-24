@@ -31,14 +31,20 @@ nav{
   height: 30vh;
 
 }*/
-label.logo{
+label.logo a{
   color:white;
   font-size: 10vh;
   line-height: 15vh;
   padding: 0 40px;
   position: relative;
   top:15px;
-  left: 25px;
+  cursor: pointer;
+  text-decoration: none;
+}
+label.logo:hover{
+  color:white;
+  text-decoration: none;
+  text-transform: none;
 }
 
 label.logo2{
@@ -254,8 +260,16 @@ div.grid2-item video{
   .grid-container1{
     display: inline-block;
   }
+  .grid1-item{
+    margin-right:15%;
+    margin-left:15%;
+  }
   .grid-container2{
     display: inline-block;
+  }
+  .grid2-item{
+    margin-right:15%;
+    margin-left:15%;
   }
   .footer{
     position: relative;
