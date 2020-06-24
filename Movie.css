@@ -78,10 +78,11 @@ a.active, a:hover{
 }
 
 div.Movie iframe{
+  position: absolute;
+  top:0;
+  left: 0;
   height: 100%;
   width: 100%;
-  margin-left: 20%;
-  margin-top: 30px;
   justify-content: center;
   align content: center;
   border: 2px solid white;
