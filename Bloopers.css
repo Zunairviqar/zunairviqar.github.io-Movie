@@ -31,14 +31,20 @@ nav{
   height: 30vh;
 
 }*/
-label.logo{
+label.logo a{
   color:white;
   font-size: 10vh;
   line-height: 15vh;
   padding: 0 40px;
   position: relative;
   top:15px;
-  left: 25px;
+  cursor: pointer;
+  text-decoration: none;
+}
+label.logo:hover{
+  color:white;
+  text-decoration: none;
+  text-transform: none;
 }
 
 label.logo2{
