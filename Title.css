@@ -49,10 +49,11 @@ div.pic {
 #map2{
   /* width: 100%; */
   height:80vh;
+  background-color: yellow;
   position: absolute;
   z-index: 1;
   margin-top: 10vh;
-  margin-right: 10%;
+  padding-right: 12%;
   /* margin: auto; */
   /* padding: 100px; */
   /* text-align: center; */
