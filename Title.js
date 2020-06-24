@@ -28,9 +28,8 @@ window.addEventListener("load", function() {
         window.open("Movie.html");
       });
     }
-    setTimeout(checkReady(), 100);
-
 }
+setTimeout(checkReady(), 100);
 
 
 
