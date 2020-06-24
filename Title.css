@@ -49,7 +49,7 @@ div.pic {
 #map2{
   /* width: 100%; */
   height:80vh;
-  position: relative;
+  position: absolute;
   z-index: 1;
   margin-top: 10vh;
   margin-right: 10%;
@@ -60,7 +60,8 @@ div.pic {
   justify-content: center;
   align content: center;
   cursor: pointer;
-  display: none;
+  /* display: none; */
+  visibility: hidden;
 }
 
 @media (max-width:952px){
@@ -75,7 +76,8 @@ div.pic {
     display: none;
   }
   #map2{
-    display: block;
+    /* display: block; */
+    visibility: visible;
   }
 }
 
