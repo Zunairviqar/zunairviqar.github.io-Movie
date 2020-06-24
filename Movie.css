@@ -175,6 +175,8 @@ div.Movie iframe {
     width: 95%;
     margin-left: 2.5%;
     margin-top: 10px;
+    /* border:2px solid black; */
+    border:none;
   }
   ul {
     position: fixed;
