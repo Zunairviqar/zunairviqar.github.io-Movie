@@ -78,11 +78,10 @@ a.active, a:hover{
 }
 
 div.Movie iframe{
-  position: absolute;
-  top:0;
-  left: 0;
-  height: 100%;
-  width: 100%;
+  height: 20%;
+  width: 60%;
+  margin-left: 20%;
+  margin-top: 30px;
   justify-content: center;
   align content: center;
   border: 2px solid white;
@@ -133,16 +132,25 @@ div.Movie iframe{
     font-size: 16px;
   }
   .Movie{
-    cursor: pointer;
-    /* margin-left: 10vw; */
-    /* padding: 40px; */
-  }
-  div.Movie video{
-    height: 65%;
-    width: 70%;
-    margin-left: 15%;
-    margin-top: 10px;
-  }
+  cursor: pointer;
+  margin-left: 20vw;
+  /* margin-left: 20%; */
+  position: relative;
+}
+
+div.Movie iframe {
+  height: 70vh;
+  width: 60vw;
+  margin-top: 10px;
+  height: 25%;
+  width: 60%;
+  margin-left: 20%;
+  margin-top: 30px;
+  justify-content: center;
+  align content: center;
+  border: 2px solid white;
+  border-radius: 4px;
+}
   .footer{
     font-size: 2vh;
   }
