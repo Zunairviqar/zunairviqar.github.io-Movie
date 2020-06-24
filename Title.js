@@ -13,7 +13,7 @@ window.addEventListener("load", function() {
 	});
 
   function checkReady() {
-    var svg = document.getElementById("map2").getSVGDocument();
+    var svg = document.getElementById("map2");
     if (svg == null) {
         console.log("Im in for")
         setTimeout("checkReady()", 300);
